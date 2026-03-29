@@ -2,54 +2,69 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Portfolio Electronique</title>
+    <title>Portfolio - Ingénieur Embedded</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-    <h1>Ingénieur Systèmes Embarqués</h1>
-    <p>Conception PCB | Firmware | ESP32</p>
+    <h1>Henrique Moreira</h1>
+    <p>Ingénieur Systèmes Embarqués & Conception PCB</p>
 </header>
 
 <nav>
-    <a href="#">Accueil</a>
-    <a href="#">Projets</a>
-    <a href="#">Compétences</a>
-    <a href="#">Contact</a>
+    <a href="#about">À propos</a>
+    <a href="#projects">Projets</a>
+    <a href="#skills">Compétences</a>
+    <a href="#contact">Contact</a>
 </nav>
 
 <section class="hero">
-    <h2>Bienvenue</h2>
-    <p>Je conçois et développe des cartes électroniques et des systèmes embarqués.</p>
+    <h2>Je conçois des systèmes électroniques embarqués</h2>
+    <p>Firmware | PCB | ESP32 | Communication embarquée</p>
 </section>
 
-<section>
-    <h2>Mes Projets</h2>
-    <div class="card">
-    <h3><a href="dwlr.html">DWLR - Water Level Recorder</a></h3>
-    <p>ESP32 + SIM800L + ADS1115 + Carte SD</p>
-</div>
+<section id="about">
+    <h2>À propos</h2>
+    <p>
+        Ingénieur chez Schneider Electric, spécialisé en systèmes embarqués,
+        conception de cartes électroniques et développement firmware en C.
+    </p>
+</section>
+
+<section id="projects">
+    <h2>Projets</h2>
 
     <div class="card">
-        <h3>Projet Flipper Zero-like</h3>
-        <p>ESP32-S3 + NFC + RF + IR + USB HID</p>
+        <h3><a href="dwlr.html">DWLR - Water Level Recorder</a></h3>
+        <p>ESP32, SIM800L, ADS1115, communication GSM</p>
     </div>
+
+    <div class="card">
+        <h3>Flipper Zero-like</h3>
+        <p>ESP32-S3, NFC, RF, IR, USB HID</p>
+    </div>
+
 </section>
 
-<section>
+<section id="skills">
     <h2>Compétences</h2>
     <ul>
-        <li>Langage C (Firmware)</li>
+        <li>Langage C (Firmware embarqué)</li>
         <li>ESP32 / Microcontrôleurs</li>
-        <li>I2C, SPI, UART</li>
+        <li>Protocoles : UART, SPI, I2C</li>
         <li>Conception PCB (EasyEDA)</li>
-        <li>Debug & Test</li>
+        <li>Debug hardware & software</li>
     </ul>
 </section>
 
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email : osmarmoreira161@gmail.com</p>
+</section>
+
 <footer>
-    <p>Contact : osmarmoreira161@gmail.com</p>
+    <p>© 2026 Henrique Moreira</p>
 </footer>
 
 </body>

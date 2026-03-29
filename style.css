@@ -1,16 +1,27 @@
 body {
     margin: 0;
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     background: linear-gradient(135deg, #020617, #0f172a);
     color: white;
 }
 
+/* HEADER */
 header {
     padding: 30px;
     text-align: center;
     background: rgba(0,0,0,0.5);
 }
 
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    color: #38bdf8;
+}
+
+/* NAVBAR */
 nav {
     padding: 15px;
     text-align: center;
@@ -21,21 +32,40 @@ nav a {
     color: #38bdf8;
     margin: 15px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 nav a:hover {
     color: white;
 }
 
+/* HERO SECTION */
 .hero {
     padding: 60px;
     text-align: center;
 }
 
+.hero h2 {
+    font-size: 2em;
+}
+
+/* SECTIONS */
+section {
+    padding: 30px;
+}
+
+/* TITRES */
+h2 {
+    border-bottom: 2px solid #38bdf8;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* CARDS (PROJETS) */
 .card {
     background: rgba(30,41,59,0.7);
     padding: 20px;
-    margin: 15px;
+    margin: 15px 0;
     border-radius: 15px;
     transition: 0.3s;
 }
@@ -45,11 +75,23 @@ nav a:hover {
     background-color: #334155;
 }
 
-section {
-    padding: 30px;
+/* LISTES (COMPÉTENCES) */
+ul {
+    list-style: none;
+    padding: 0;
 }
 
+ul li {
+    background: #1e293b;
+    margin: 8px 0;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+/* FOOTER */
 footer {
     text-align: center;
     padding: 20px;
+    background-color: #020617;
+    margin-top: 30px;
 }
